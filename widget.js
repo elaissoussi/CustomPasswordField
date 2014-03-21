@@ -3,7 +3,7 @@ WAF.define('CustomPasswordField', ['waf-core/widget'], function(widget) {
     var CustomPasswordField = widget.create('CustomPasswordField', 'CustomTextField', {
         init: function() {
             this.node.setAttribute("type", "password");
-            this.node.placeholder ="Tape a Password";
+            this.node.placeholder ="Password";
         }
     });
 
